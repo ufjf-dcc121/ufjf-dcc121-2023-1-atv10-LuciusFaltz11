@@ -33,5 +33,16 @@
     <footer>
         <p>&copy; Lucius Faltz - 2023</p>
     </footer>
+
+    <script>
+
+        const form = document.forms.entrada;
+        form.addEventListener('submit', envia);
+
+        function envia(e){
+            e.preventDefault();
+            console.log("Formulário enviado :)");
+        }
+    </script>
 </body>
 </html>
